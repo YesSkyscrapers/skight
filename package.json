@@ -1,0 +1,22 @@
+{
+    "name": "skight",
+    "version": "1.0.0",
+    "description": "Skight Server",
+    "devDependencies": {
+        "@types/node": "^16.3.1",
+        "ts-node": "3.3.0",
+        "typescript": "3.3.3333"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "moment": "^2.29.1",
+        "mysql": "^2.14.1",
+        "node-fetch": "^2.6.1",
+        "reflect-metadata": "^0.1.10",
+        "skyes": "https://github.com/YesSkyscrapers/skyes",
+        "typeorm": "0.2.32"
+    },
+    "scripts": {
+        "start": "ts-node -r esm index.ts"
+    }
+}
