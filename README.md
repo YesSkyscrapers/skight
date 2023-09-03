@@ -1,1 +1,1 @@
-Skyes Identity server
+Skight Server
