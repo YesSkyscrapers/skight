@@ -1,4 +1,4 @@
-import { REGISTRATION } from '../constants/MessagesActions'
+import { REGISTRATION } from '../constants/MessagesInActions'
 import { GameServerParams } from '../entity/GameServerParams'
 import registration from './handlers/registration'
 import udpServer from './udpServer'

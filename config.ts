@@ -3,7 +3,7 @@ const ormconfig = {
     host: 'localhost',
     port: 3306,
     username: 'root',
-    password: 'MyN3wP4ssw0rd',
+    password: 'password',
     database: 'skight',
     synchronize: true,
     logging: false,
