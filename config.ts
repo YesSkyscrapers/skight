@@ -25,4 +25,10 @@ const serverConfig = {
     }
 }
 
-export { ormconfig, serverConfig }
+const defaultGameServerParams = {
+    allowedPortsFrom: 3000,
+    allowedPortsTo: 4000,
+    lastRunPort: null
+}
+
+export { ormconfig, serverConfig, defaultGameServerParams }
